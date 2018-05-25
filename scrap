@@ -1,0 +1,105 @@
+
+
+
+
+--------------
+
+
+ <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+
+
+
+
+
+
+-----------
+
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row;
+    justify-content: space-around;
+    line-height:30px;
+}
+
+.flex-item {
+    background: beige;
+    margin: 1px;
+    color: white;
+    flex: 1 0 auto;
+    height:auto;
+}
+
+.flex-item:before {
+    content:'';
+    float:left;
+    padding-top:100%;
+}
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: beige;
+
+}
+
+
+--------
+
+
+.container {
+    display: inline-grid;
+    grid-template-rows: 100px;
+    grid-template-columns:100px;
+    grid-gap: 5px;
+    margin: 0px;
+    background: black;
+    align-content: center;
+
+}
+
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0px 0;
+  
+}
+
+
+.square {
+    display: inline-grid;
+    width: 100px;
+    height: 100px;
+    background: beige;
+
+}
+
+
