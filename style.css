@@ -2,24 +2,50 @@
 
 body {
 	background: purple;
-	margin: 20px;
+	margin: 30px;
+	margin-bottom: 60px;
+}
+
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: black;
+	font-size: 50px;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+
+
+button: hover {
+	background-color: black;
+	color: white;
+}
+
+
+.button-container {
+	text-align: center;
 }
 
 
 .grid {
-	border: 2px blue solid;
-	height: 600px;
-	width: 600px;
+	border: 10px black solid;
+	height: 540px;
+	width: 540px;
+	background-color: beige;
 	display: grid;
-	grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+
 }
 
 .box {
-  background-color: beige;
-  color: black;
   border-radius: 5px;
-  border: 2px dodgerblue solid;
+  border: 1px white solid;
 }
+
 
 
 

@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
-
   <head>
 
   	<link rel='stylesheet' type='text/css' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
-  	<title> Sketch</title>
+  	<title>Draw</title>
 
   </head>
-  <body>	
-    
-   <center><h2>Draw</h2>
+  <body>
 
-   <div class="grid">
+    <div id="container">
+        <button onclick="resetGrid()">Reset</button>
+    <div>
+    <div id="container">
+        <button onclick="resizeGrid()">Size Grid</button>
+    </div>
 
-        <div class="box"></div>
+    <center>
+      <h1>Draw</h1>
+      <div class="grid">
+          
+      </div>
+   </center>
 
-    </div></center>
 
-
-    
 
     <script type="text/javascript" src="script.js"></script>
-
   </body>
-
 </html>
